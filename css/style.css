@@ -1,0 +1,200 @@
+/* Reset de estilos básicos */
+body, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+p {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: large ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B0E0E6;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cor-de-fundo{
+    background: #B0E0E6;
+}
+
+#nome h1{
+    font-size: 30px;
+}
+#nome{
+    margin: 20px;
+   
+    text-align: center;
+}
+#nome img{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container1 {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.container {
+    margin: 10 auto;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.container1 a{
+    color: white;
+}
+.container1 a:hover {
+    color: #32404b;
+}
+
+.title{
+    text-align: center;
+}
+
+.ferramentas{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.icones p:hover{
+    color: #000000;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+}
+.icones img{
+    width:60px; 
+    height:60px;
+    padding: 10px;
+}
+
+.icones a{
+    text-decoration: none;
+
+}
+
+
+header {
+    background: #87CEFA;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.icons{
+    margin: 15px;
+    padding: 10px;
+    margin: auto;
+  display: block;
+
+
+}
+
+.bg-light {
+    background: #B0E0E6;
+    color: white;
+}
+.portifolio{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.container-projetos{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 70px;
+max-width: 1200px;
+margin: 0 auto;
+color: white;
+}
+.projeto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+}
+
+.projeto p {
+    font-size: 1rem;
+}
+
+
+.ver-mais{
+    background-color: #b2c5f0;
+    color: white;
+    border: rgb(219, 216, 216);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+

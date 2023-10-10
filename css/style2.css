@@ -1,0 +1,157 @@
+
+/* Estilos de habilidades */
+.title{
+    text-align: center;
+}
+.container-habilidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+/* Estilos específicos para seções alternadas */
+.bg-light {
+    background-color: #0f0f0f;
+}
+
+.projeto {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+}
+
+.projeto p {
+    font-size: 1rem;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/*Estilos psdrão da pagina */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* EStilos para o modo de alto contraste */
+body.high-contrast {
+color:#fff !important;
+background-color: #000 !important;
+}
+body.high-contrast h1 {
+    color:#fff !important;
+}
+
+body.high-contrast p {
+    color: #ddd !important;
+}
+
+/*modificação do botão*/
+button[onclick]{
+    background-color: #9e8068;
+     border: none;
+     color: #fff;
+     padding: 15px 32px;
+     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Estilos gerais da pagina */
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+h1 {
+    color:black
+}
+
+/* Estilos para as imagens e legendas */
+.photo-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.photo-container img {
+    width: 300px;
+    height: auto;
+}
+
+.photo-container .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color:#fff;
+    font-size: 16px;
+}
+
+
+.photo-container:hover{
+    transform: scale(1.1);
+}
+
+
+.ferramentas{
+    display: flex;
+   flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.icones p:hover{
+    color: #000000;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+}
+.icones img{
+    width:60px; 
+    height:60px;
+    padding: 10px;
+}
+
+.icones a{
+    text-decoration: none;
+
+}
+
+.icons{
+    margin: 15px;
+    padding: 10px;
+}
