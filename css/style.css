@@ -1,16 +1,23 @@
+
 /* Reset de estilos básicos */
-body, h2, h3, ul, li {
+body,
+h2,
+h3,
+ul,
+li {
     margin: 0;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(49, 47, 47);
     font-family: 'Libre Baskerville', serif;
+
+
 }
 
 
 p {
     color: rgb(0, 0, 0);
     align-items: center;
-    font-size: large ;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -18,26 +25,43 @@ p {
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #B0E0E6;
+    background-color: #a08963;
     line-height: 1.6;
-    color: #333;
+    color: #5c5555;
     margin: 0;
     padding: 0;
+
 }
 
-.cor-de-fundo{
-    background: #B0E0E6;
+.cor-de-fundo {
+    background: #a08963;
+
 }
 
-#nome h1{
+.foto {
+    grid-area: foto;
+    padding: 5%;
+    display:flex;
+    justify-content: center;
+}
+
+.foto img {
+    width:80%
+}
+
+
+#nome h1 {
     font-size: 30px;
+
 }
-#nome{
+
+#nome {
     margin: 20px;
-   
+
     text-align: center;
 }
-#nome img{
+
+#nome img {
     max-width: 100%;
     margin: 0 auto;
     padding: 0px;
@@ -54,23 +78,26 @@ body {
 
 
 .container {
-    margin: 10 auto;
-    padding: 10px;
+    padding: 20px;
     color: #ffffff;
+    grid-area: auto;
+    margin: 5%;
+
 }
 
-.container1 a{
+.container1 a {
     color: white;
 }
+
 .container1 a:hover {
-    color: #32404b;
+    color: #a08963;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-.ferramentas{
+.ferramentas {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -80,29 +107,32 @@ body {
     text-align: center;
 }
 
-.icones p:hover{
-    color: #000000;
+.icones p:hover {
+    color: #e4a547;
 }
-.icones{
+
+.icones {
     display: flex;
     justify-content: center;
 }
-.icones img{
-    width:60px; 
-    height:60px;
+
+.icones img {
+    width: 60px;
+    height: 60px;
     padding: 10px;
 }
 
-.icones a{
+.icones a {
     text-decoration: none;
 
 }
 
 
 header {
-    background: #87CEFA;
+    background: #986c3f;
     color: #fff;
     padding: 20px 0;
+
 }
 
 header h1 {
@@ -129,34 +159,36 @@ section {
     padding: 40px 0;
 }
 
-.icons{
+.icons {
     margin: 15px;
     padding: 10px;
     margin: auto;
-  display: block;
+    display: block;
 
 
 }
 
 .bg-light {
-    background: #B0E0E6;
+    background: #a08963;
     color: white;
 }
-.portifolio{
+
+.portifolio {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     color: #ffffff;
 }
 
-.container-projetos{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 70px;
-max-width: 1200px;
-margin: 0 auto;
-color: white;
+.container-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
 }
+
 .projeto {
     display: flex;
     flex-direction: column;
@@ -169,7 +201,7 @@ color: white;
 
 .projeto a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -188,13 +220,11 @@ color: white;
 }
 
 
-.ver-mais{
-    background-color: #b2c5f0;
-    color: white;
+.ver-mais {
+    background-color: #0c2e7f;
+    color: rgb(255, 255, 255);
     border: rgb(219, 216, 216);
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
 }
-
-
